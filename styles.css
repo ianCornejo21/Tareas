@@ -38,8 +38,8 @@ header {
     margin-right: 10px;
     border-radius: 10px;
     border-style: none;
-    background-color: rgb(96, 0, 250);
-    
+    background-color: rgb(117, 31, 255);
+    box-shadow: 3px 3px 3px 3px rgba(63, 0, 165, 0.993);
 }
 
 a {
