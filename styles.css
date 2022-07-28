@@ -38,9 +38,11 @@ header {
     margin-right: 10px;
     border-radius: 10px;
     border-style: none;
-
+    background-color: rgb(96, 0, 250);
+    
 }
 
 a {
+    color: white;
     text-decoration: none;
 }
