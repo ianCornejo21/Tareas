@@ -1,48 +1,135 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Cormorant+SC&family=Montserrat:wght@400;700&family=Saira:wght@300&display=swap');
 * {
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    
 }
 body {
-    background-color: white;
-}
+    height: 2000px;
+    background: rgb(251,251,226);
 
+}
+ul, li {
+    list-style: none;
+}
 header {
-    height: 50px;
-    border-radius: 100px;
-    margin: 10px;
+    height: 60px; 
+    width: 100%;
     display: flex;
-    background-color: rgb(0, 0, 0);
     justify-content: space-between;
     align-items: center;
     padding: 5px 1%;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    position: fixed;
+    background-color: rgb(251,251,226);
+}
+header div {
+    color: rgb(0, 0, 0);
+}
+header div h2 {
+    font-family: 'Saira', sans-serif;
 }
 .header .logo img{
-    height: 35px;
+    height: 40px;
     border-radius: 100%;
-}
+    margin-left: 15px;
+    box-shadow: 0px 0px 4px rgb(0, 0, 0);}
 .navLinks {
     list-style: none;
+    padding-right: 5vh;
 }
 .navLinks li {
     display: inline-block;
     padding: 0 10px;
 }
 .navLinks a {
-    font-size: 600;
-    color: white;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    padding-left: 5vh;
 }
-.header .boton {
-    padding: 5px;
-    margin-right: 10px;
-    border-radius: 10px;
-    border-style: none;
-    background-color: rgb(117, 31, 255);
-    box-shadow: 3px 3px 3px 3px rgba(63, 0, 165, 0.993);
-}
-
 a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
+    transition: font-size .4s;
+}
+a:hover{
+    font-size: 16.5px;
+}
+.section-inicio {
+    padding-top: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    gap: 40px;
+}
+.container-inicio {
+    width: 30%;
+    font-size: 2vh;
+}
+.img-barras {
+    width: 25%;
+    /* border: solid black 8px; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;*/
+}
+.boton-encargo {
+    width: 85%;
+    height: 30px;
+    background-color: rgb(226, 76, 121);
+    border-style: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: 800;
+    margin-top: 30px;
+    transition: width.7s;
+}
+.boton-encargo:hover {
+    width: 87%;
+    height: 33px;
+}
+.hero {
+    margin-left: 11em;
+    margin-top: 120px;
+    margin-right: 11em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    gap: 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -2px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.hero div h1 {
+    margin-bottom: 10px;
+}
+.textoInformativo p{
+    margin-right: 40px;
+}
+.section-cards {
+    margin: 12em 11em 12em 11em ;
+    display: flex;
+    justify-content: space-around;
+}
+.section-cards-div1 {
+   width: 30vh;
+   height: 45vh;
+   background-color: blue;
+}
+.section-cards-div2 {
+    display: inline-block;
+    width: 30vh;
+    height: 45vh;
+    background-color: blue;
+}
+.section-cards-div3 {
+    display: inline-block;
+    width: 30vh;
+    height: 45vh;
+    background-color: blue;
+}
+.section-h2-img {
+    width: 75px;
 }
